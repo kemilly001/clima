@@ -1,0 +1,32 @@
+  *{
+
+  }
+  
+  
+  
+  .dados{
+        display: flex;
+        max-width: 960px;
+        background-color: aqua;
+        margin: 40px auto;
+        border: 1px solid #dddd;
+        border-radius: 16px;
+        box-shadow: 8px 8px 40px #dddddd62;
+    }
+    .condicao , .local-atual{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    .fontLarga{
+        font-size: 50px;
+    }
+    .fontMedia{
+        font-size: 16px;
+    }
+    .hiderLoad{
+        display: none;
+    }
+    
